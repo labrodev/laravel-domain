@@ -1,6 +1,6 @@
 # Domain for Laravel
 
-The ModelHasActorTracker trait provides automatic tracking of the user who creates or updates a model record by setting created_by and updated_by attributes. This trait is useful in applications that require auditing changes and maintaining a record of the users responsible for creating and updating model instances.
+This package is bunch of basic classes, utilities and interfaces to provide solid Domain oriented architecture for Laravel application.
 
 ## Installation
 
