@@ -6,4 +6,5 @@ namespace Labrodev\Domain\Actions;
 
 interface ModelUpdateInterface
 {
+    public const ACTION_NAME = 'execute';
 }

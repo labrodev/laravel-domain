@@ -6,4 +6,5 @@ namespace Labrodev\Domain\Actions;
 
 interface ModelRemoveInterface
 {
+    public const ACTION_NAME = 'execute';
 }
