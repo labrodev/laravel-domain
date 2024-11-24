@@ -8,10 +8,10 @@ use Illuminate\Contracts\Auth\Authenticatable;
 
 interface GuardCrud
 {
-    public const CREATE_METHOD = 'create';
-    public const INDEX_METHOD = 'index';
-    public const UPDATE_METHOD = 'update';
-    public const REMOVE_METHOD = 'remove';
+    public const CREATE = 'create';
+    public const VIEW = 'view';
+    public const UPDATE = 'update';
+    public const REMOVE = 'remove';
 
     /**
      * @param Authenticatable $user
