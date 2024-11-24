@@ -6,4 +6,8 @@ namespace Labrodev\Domain\Models;
 
 interface ModelInterface
 {
+    /**
+     * @return string
+     */
+    public function getRouteKeyName(): string;
 }
